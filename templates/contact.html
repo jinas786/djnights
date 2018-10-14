@@ -1,0 +1,35 @@
+{%extends "index.html"%}
+
+{%block body%}
+
+
+
+<div id="contact" class="container-fluid">
+  
+
+
+<div class="row">
+  
+
+
+<h1>CONTACT</h1>
+
+
+<form method="POST" action="/feedback">
+   <p1> FIRST NAME:</p1><br>
+    <input type="text" name="firstname">
+    <br>
+    <p1>LAST NAME:</p1><br>
+    <input type="text" name="lastname"><br>
+      <p1>EMAIL:</p1><br>
+      <input type="email" name="mail" ><br>
+      <p1>UR FEED BACK PLZ:</p1><br>
+      <input type="text-area" name="" id=""><br>
+      <input type="submit" class="btn bg-success" value="submit">
+      
+      
+</form>
+
+</div>
+</div>
+{%endblock%}

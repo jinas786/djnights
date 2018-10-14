@@ -1,0 +1,32 @@
+body{
+    background-image: url("/static/img/4th.jpg");
+
+}
+h1{
+    color: brown;
+    font-weight: 1500;
+    padding: 10px;
+        border: 10px solid transparent;
+        padding: 15px;
+        -o-border-image: url(border.png) 30 round;
+           border-image: url(border.png) 30 round;
+
+}
+#contact{
+    text-align: center;
+}
+p1
+{
+    font-weight: 800;
+    color: white;
+
+}
+input
+{
+    padding: 10px;
+    font-size: 22px;
+}
+.btn{
+    padding: 10px;
+    margin: 10px;
+}

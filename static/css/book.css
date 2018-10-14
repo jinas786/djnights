@@ -1,0 +1,24 @@
+#reg{
+    background-image: url("/static/img/5th.jpg");
+}
+h1{
+    color: blue ;
+    font-weight: 1500;
+}
+
+.row{
+    text-align: center;
+    /* margin-top: 40px; */
+}
+input{
+    padding: 10px;
+    font-size: 22px;
+}
+p{
+    font-weight: 800;
+    color: white;
+}
+.btn{
+    padding: 10px;
+    margin: 10px;
+}
